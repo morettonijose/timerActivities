@@ -3,7 +3,7 @@ PYTHON FLASK SWAGGER API - CRUD para criar e gerenciar tarefas
 
  
  
-**/////Instalação de Blibliotecas  Necessárias :///////**
+**/////1 ) Instalação de Blibliotecas  Necessárias :///////**
 
  
 **WINDOWS/LINUX :**
@@ -34,7 +34,7 @@ pip3  install flask-cors
 
  
 
-**/////Rodando o Projeto :///////**
+**//////2 )  Rodando o Projeto :///////**
 
 //Verifique se tem o pythin instalado em seu terminal e teste a versão do Python   : 
 
@@ -51,9 +51,9 @@ python3 —version
 
 python3 app.py      
 
-**/////PRONTO///////**
+**//////3 )  PRONTO///////**
 
-Você deverá  ver uma resposta do tipo , com o endereço para acesso a API : **http://127.0.0.1:5000**  :
+**Você receberá uma mensagem do tipo :**
 
  * Serving Flask app 'app'
  * Debug mode: on
@@ -65,10 +65,13 @@ Press CTRL+C to quit
  * Debugger PIN: 608-878-228
 
 
-PARA ACESSAR O SWAGGER DA DOCUMENTAÇÃO acesse o seguinte link: **http://127.0.0.1:5000/swagger/**
+E então já  poderá acessar a API no endereço a a seguir  : **http://127.0.0.1:5000**  :
+
+A rota  para o SWAGGER com a documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
 
 
-**Possiveis soluções para erros**
+**//////Possiveis soluções para erros///////**
+
 Caso tenha erro ao tentar executar a escrita no banco de dados deve-se verificar e corrigir a permissão de escrita do arquivo e respectivo diretorio, conforme a seguir :  
   * chmod 755 /instance
   * chmod 666 /instance/activities.db
