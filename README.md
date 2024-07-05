@@ -28,8 +28,12 @@ cd seu-repositorio
 python3 -m venv venv
 source venv/bin/activate
 
-### 3.  Instale as bibliotecas necessárias
+### 3.  ONLY FOR WINDOWS/LINUX Instale as bibliotecas necessárias
 pip install -r statics/requirements.txt
+
+
+### 3. ONLY FOR MAC OS Instale as bibliotecas necessárias
+pip3 install -r statics/requirements.txt
 
 
 
