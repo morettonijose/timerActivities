@@ -1,7 +1,7 @@
 # timerActivities API
 API  para gerenciar e cronometrar  tarefas usando PYTHON, FLASK e SWAGGER .
 
-Acesse aqui  o github com um exemolo de  front-end para a  aplicação : https://github.com/morettonijose/timerActivities-frontEnd
+Acesse aqui  o github com um exemplo do front-end para a aplicação : https://github.com/morettonijose/timerActivities-frontEnd
  
 ## Requisitos
 
