@@ -8,14 +8,12 @@ import os
 
 
 
-
-
 app = Flask(__name__)
 CORS(app)  # Configure o CORS para permitir todas as origens
 #cors = CORS(app, resources={r"/api/*": {"origins": ["http://localhost:3000", "http://127.0.0.1:3000"]}})
+
+
  
-
-
 # Caminho absoluto para o banco de dados
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'instance/activities.db')
@@ -110,7 +108,7 @@ class UpdateActivity(Resource):
             return jsonify({"message": "Atividade atualizada com sucesso", "activity": activity.to_dict()})
         except Exception as e:
             return jsonify({"message": "Erro interno ao atualizar a atividade", "error": str(e)})
-
+ 
 
 
 
@@ -130,7 +128,7 @@ class DeleteActivity(Resource):
             return jsonify({"message": "Erro interno ao deletar a atividade", "error": str(e)})
         
 
-
+ 
         
 
 # Adiciona as rotas de classes para o add_resource disponibilizar o acesso a url da API
@@ -147,7 +145,7 @@ swaggerui_blueprint = get_swaggerui_blueprint(
     SWAGGER_URL,
     API_URL,
     config={
-        'app_name': "API - Controle de Atividades"
+        'app_name': "API - Controle e cronometro de Atividades"
     }
 )
 
