@@ -1,5 +1,5 @@
 # timerActivities API
-PYTHON FLASK SWAGGER API - CRUD para criar e gerenciar tarefas
+API CRUD para criar e gerenciar tarefas com PYTHON, FLASK e SWAGGER 
  
 ## Requisitos
 
