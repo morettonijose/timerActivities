@@ -24,7 +24,7 @@ pip  install flask-cors
 **MAC OS :**
 
  
-Para criae o ambiente virtual python sig esse tutorial  : **https://www.youtube.com/watch?v=0hInltB9QNY**
+Para criae o ambiente virtual python siga esse tutorial  : **https://www.youtube.com/watch?v=0hInltB9QNY**
 
 //a seguir adicione o FLASK USANDO O PIP, se não tem o pio instalado verifique este tutorial : **https://www.youtube.com/watch?v=B1Qcb5xQ96M**
 
