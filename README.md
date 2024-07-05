@@ -70,6 +70,10 @@ Pip install -U Flask-SQLAlchemy
 
 pip  install flask-cors
 
+//verifica bibliotecas instaladas no ambiente
+pip list
+
+
 
  
 **MAC OS :**
@@ -86,13 +90,20 @@ Pip3 install -U Flask-SQLAlchemy
 
 pip3  install flask-cors
 
-
 //verifica bibliotecas instaladas no ambiente
 pip3 list
+ 
 
-**//////Rodando o Projeto : Execute o códio a seguir em seu terminal no diretorio de seu projeto em que seu arquivo app.py esta loalizado .///////**
 
-python3 app.py      
+
+**//////Rodando o Projeto :///////**
+
+**WINDOWS / LINUX**
+python app.py
+
+**MAC OS**
+python3 app.py
+
 
 **////// PRONTO///////**
 
