@@ -5,6 +5,9 @@ PYTHON FLASK SWAGGER API - CRUD para criar e gerenciar tarefas
  
 **/////1 ) Instalação de Blibliotecas  Necessárias :///////**
 
+
+
+
  
 **WINDOWS/LINUX :**
 
@@ -21,6 +24,21 @@ pip  install flask-cors
  
 **MAC OS :**
 
+// no terminal vá até o diretório onde quer desenvolver o projeto e crie o virtual environment do ambiente de desenvolvimento  instalando os pacotes necessários para o projeto  flask ;
+
+python3 -m venv  fl-venv
+
+. fl_env/bin/activate
+
+//a seguir adicione o FLASK USANDO O PIP, se não tem o pio instalado verifique este tutorial : **https://www.youtube.com/watch?v=B1Qcb5xQ96M**
+
+pip install Flask
+
+//verifica bibliotecas instaladas no ambiente
+
+pip list
+
+  
 pip3 install  flask
 
 pip3 install flask-restful
