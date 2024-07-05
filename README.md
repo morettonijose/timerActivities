@@ -36,7 +36,7 @@ pip3  install flask-cors
 
 **//////2 )  Rodando o Projeto :///////**
 
-//Verifique se tem o pythin instalado em seu terminal e teste a versão do Python   : 
+//Verifique se tem o python instalado em seu terminal verificando a versão do Python   : 
 
 python3 —version
 
@@ -44,10 +44,10 @@ python3 —version
 // Se não tem o python instalado , siga no link a seguir e instale, e então reinicie o seu terminal.
 // Baixe e Instale aqui : https://www.python.org/downloads/ ; 
 
-//Verifique se tem o pythin instalado em seu terminal e teste a versão do Python   : 
+//Após reiniciar o terminar verifique novamente se tem o python instalado em seu terminal verificando a versão do Python   : 
 python3 —version
 
-//Uma vez que você teve sucesso em verificar a versão do Phyton , processa para iniciar a  a instância e digite o código a seguir em seu terminal . 
+//Uma vez que você teve sucesso em verificar a versão do Phyton , proceda para iniciar a instância e digite o código a seguir em seu terminal . 
 
 python3 app.py      
 
