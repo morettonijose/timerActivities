@@ -10,11 +10,17 @@ API CRUD para criar e gerenciar tarefas com PYTHON, FLASK e SWAGGER
 
 //Verifique se tem o python instalado em seu terminal verificando a versão do Python   : 
 python3 —version
+
 // Se não tem o python instalado , siga no link a seguir e instale, e então reinicie o seu terminal.
+
 // Baixe e Instale aqui : https://www.python.org/downloads/ ; 
+
 //Após reiniciar o terminar verifique novamente se tem o python instalado em seu terminal verificando a versão do Python   : 
 python3 —version
+
 //Uma vez que você teve sucesso em verificar a versão do Phyton , proceder para iniciar a instância e digite o código a seguir em seu terminal . 
+
+
 
 
 
@@ -24,9 +30,18 @@ python3 —version
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
-### 2.  Crie e ative um ambiente virtual
+
+
+### 2. ONLY FOR  Crie e ative um ambiente virtual
 python3 -m venv venv
 source venv/bin/activate
+
+### 2.  ONLY FOR MAC Crie e ative um ambiente virtual
+python3 -m venv venv
+. venv/bin/activate
+
+
+
 
 ### 3.  ONLY FOR WINDOWS/LINUX Instale as bibliotecas necessárias
 pip install -r statics/requirements.txt
@@ -59,11 +74,6 @@ pip  install flask-cors
  
 **MAC OS :**
 
- 
-Para criae o ambiente virtual python siga esse tutorial  : **https://www.youtube.com/watch?v=0hInltB9QNY**
-
-//a seguir adicione o FLASK USANDO O PIP, se não tem o pio instalado verifique este tutorial : **https://www.youtube.com/watch?v=B1Qcb5xQ96M**
-
 pip3 install Flask
   
 pip3 install  flask
@@ -78,11 +88,7 @@ pip3  install flask-cors
 
 
 //verifica bibliotecas instaladas no ambiente
-
 pip3 list
-
-
- 
 
 **//////Rodando o Projeto : Execute o códio a seguir em seu terminal no diretorio de seu projeto em que seu arquivo app.py esta loalizado .///////**
 
