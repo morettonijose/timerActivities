@@ -46,19 +46,66 @@ python3 -m venv venv
 
 
 ### 3.  ONLY FOR WINDOWS/LINUX Instale as bibliotecas necessárias
-pip install -r statics/requirements.txt
+pip install -r static/requirements.txt
 
 
 ### 3. ONLY FOR MAC OS Instale as bibliotecas necessárias
-pip3 install -r statics/requirements.txt
+pip3 install -r static/requirements.txt
 
 
 
- 
- 
+**//////Rodando o Projeto :///////**
+
+**WINDOWS / LINUX**
+python app.py
+
+**MAC OS**
+python3 app.py
+
+
+**////// PRONTO///////**
+
+**Você receberá uma mensagem do tipo :**
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 608-878-228
+
+
+E então já  poderá acessar a API no endereço a a seguir  : **http://127.0.0.1:5000**  :
+
+A rota  para o SWAGGER com a documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
+
+
+
+
+
+**/////////////////////////////////////////////////////////////////**
+**/////////////////////////////////////////////////////////////////**
+**/////////////////////////////////////////////////////////////////**
+**/////////////////////////////////////////////////////////////////**
+
+
+**//////Possiveis soluções para erros///////**
+
+
+
+**//////ERRO DE ESCRITA NO BANCO DE DADOS ///////**
+Caso tenha erro ao tentar executar a escrita no banco de dados deve-se verificar e corrigir a permissão de escrita do arquivo e respectivo diretorio, conforme a seguir :  
+  * chmod 755 /instance
+  * chmod 666 /instance/activities.db
+  * chown seu_usuario:seu_grupo /instance/activities.d
+
+**/////////////////////////////////////////////////////////////////**
+
+
+**//////ERRO DE INSTALACAO DAS BIBLIOTECAS ///////**
 **///// Para instalar manualmente as Blibliotecas  Necessárias :///////**
-
- 
 
 **WINDOWS/LINUX :**
 
@@ -95,40 +142,7 @@ pip3  install flask-cors
 //verifica bibliotecas instaladas no ambiente
 pip3 list
  
+**/////////////////////////////////////////////////////////////////**
 
 
 
-**//////Rodando o Projeto :///////**
-
-**WINDOWS / LINUX**
-python app.py
-
-**MAC OS**
-python3 app.py
-
-
-**////// PRONTO///////**
-
-**Você receberá uma mensagem do tipo :**
-
- * Serving Flask app 'app'
- * Debug mode: on
-WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
- * Running on http://127.0.0.1:5000
-Press CTRL+C to quit
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 608-878-228
-
-
-E então já  poderá acessar a API no endereço a a seguir  : **http://127.0.0.1:5000**  :
-
-A rota  para o SWAGGER com a documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
-
-
-**//////Possiveis soluções para erros///////**
-
-Caso tenha erro ao tentar executar a escrita no banco de dados deve-se verificar e corrigir a permissão de escrita do arquivo e respectivo diretorio, conforme a seguir :  
-  * chmod 755 /instance
-  * chmod 666 /instance/activities.db
-  * chown seu_usuario:seu_grupo /instance/activities.db 
