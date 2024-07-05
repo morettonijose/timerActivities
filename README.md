@@ -10,8 +10,10 @@ Acesse aqui  o github com um exemplo do front-end para a aplicação : https://g
 
 ## Instalação
 
-//Verifique se tem o python instalado em seu terminal verificando a versão do Python   : 
+Verifique se tem o python instalado em seu terminal verificando a versão do Python   : 
+```bash
 python3 —version
+```bash
 
 // Se não tem o python instalado , siga no link a seguir e instale, e então reinicie o seu terminal.
 
