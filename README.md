@@ -30,7 +30,7 @@ Pip3 install -U Flask-SQLAlchemy
 pip3  install flask-cors
 
 **Possiveis soluções para erros**
-Se tiver erro ao tentar executar a escrita no banco de dados, devemos verificar e corrigir a permissão de escrita do arquivo e diretorio conforme a seguir :  
-  * chmod 755 /instanc
+Caso tenha erro ao tentar executar a escrita no banco de dados deve-se verificar e corrigir a permissão de escrita do arquivo e respectivo diretorio, conforme a seguir :  
+  * chmod 755 /instance
   * chmod 666 /instance/activities.db
-  * chown seu_usuario:seu_grupo activities.db 
+  * chown seu_usuario:seu_grupo /instance/activities.db 
