@@ -1,5 +1,33 @@
 # timerActivities API
 PYTHON FLASK SWAGGER API - CRUD para criar e gerenciar tarefas
+ 
+## Requisitos
+
+- Python 3.x
+- pip (gerenciador de pacotes Python)
+
+## Instalação
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+### 2.  Crie e ative um ambiente virtual
+python3 -m venv venv
+source venv/bin/activate
+
+### 3.  Instale as bibliotecas necessárias
+pip install -r statics/requirements.txt
+
+
+
+
+
+
+
+
 
  
  
