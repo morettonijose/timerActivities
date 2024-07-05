@@ -1,0 +1,5 @@
+Flask
+Flask-Restful
+Flask-CORS
+Flask-SQLAlchemy
+Flask-Swagger-UI

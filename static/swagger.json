@@ -1,0 +1,217 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Controle de Atividades - API",
+    "description": "API do controle de atividades usando Swagger UI",
+    "version": "1.0.0"
+  },
+  "paths": {
+
+
+    
+    "/activities": {
+      "get": {
+        "summary": "Lista todas as atividades cadastradas",
+        "responses": {
+          "200": {
+            "description": "Operação Realizada com sucesso",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "description": {
+                        "type": "string"
+                      },
+                      "status": {
+                        "type": "string"
+                      },
+                      "category": {
+                        "type": "string"
+                      },
+                      "totalTime": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+
+
+
+
+    "/activity/new": {
+      "post": {
+        "summary": "Adiciona uma nova atividade",
+        "description": "Grants access to an user",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "nome da atividade",
+                    "example": "Nova Atividade"
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "Descrição da atividade",
+                    "example": "Descrição da atividade"
+                  },
+                  "status": {
+                    "type": "string",
+                    "description": "Status da atividade (Ativo ou Inativo)",
+                    "example": "Ativo"
+                  },
+                  "category": {
+                    "type": "string",
+                    "description": "Categoria da Atividade",
+                    "example": "Categoria"
+                  },
+                  "totalTime": {
+                    "type": "string",
+                    "description": "Total de tempo aplicado na atividade",
+                    "example": "2 horas"
+                  },
+                  "totalStart": {
+                    "type": "integer",
+                    "description": "Total de vezes que a atividade foi iniciada",
+                    "example": 5
+                  }
+                },
+                "required": ["name", "description", "status", "category", "totalTime", "totalStart"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Adicionado com Sucesso"
+          },
+          "400": {
+            "description": "Erro ao adicionar"
+          }
+        }
+      }
+    },
+
+
+
+
+    "/activity/{id}": {
+      "put": {
+        "summary": "Edita uma atividade",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "ID da atividade"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "nome da atividade",
+                    "example": "Atividade Editada"
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "Descrição da atividade",
+                    "example": "Descrição editada"
+                  },
+                  "status": {
+                    "type": "string",
+                    "description": "Status da atividade (Ativo ou Inativo)",
+                    "example": "Ativo"
+                  },
+                  "category": {
+                    "type": "string",
+                    "description": "Categoria da Atividade",
+                    "example": "Categoria"
+                  },
+                  "totalTime": {
+                    "type": "string",
+                    "description": "Total de tempo aplicado na atividade",
+                    "example": "3 horas"
+                  },
+                  "totalStart": {
+                    "type": "integer",
+                    "description": "Total de vezes que a atividade foi iniciada",
+                    "example": 10
+                  }
+                },
+                "required": ["name", "description", "status", "category", "totalTime", "totalStart"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Operação Realizada com sucesso"
+          },
+          "400": {
+            "description": "Erro ao editar"
+          }
+        }
+      }
+    },
+
+
+
+
+
+    "/activity/del/{id}": {
+      "delete": {
+        "summary": "Deleta uma atividade",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "ID da atividade"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Operação Realizada com sucesso"
+          },
+          "400": {
+            "description": "Erro ao deletar"
+          }
+        }
+      }
+    }
+
+
+
+
+  }
+}
