@@ -115,7 +115,9 @@ A rota  para o SWAGGER com a documentação da api está a seguir  : **http://12
 
 
 **//////ERRO DE ESCRITA NO BANCO DE DADOS ///////**
+
 Caso tenha erro ao tentar executar a escrita no banco de dados deve-se verificar e corrigir a permissão de escrita do arquivo e respectivo diretorio, conforme a seguir :  
+
 ```bash
   * chmod 755 /instance
   * chmod 666 /instance/activities.db
