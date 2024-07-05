@@ -8,6 +8,16 @@ PYTHON FLASK SWAGGER API - CRUD para criar e gerenciar tarefas
 
 ## Instalação
 
+//Verifique se tem o python instalado em seu terminal verificando a versão do Python   : 
+python3 —version
+// Se não tem o python instalado , siga no link a seguir e instale, e então reinicie o seu terminal.
+// Baixe e Instale aqui : https://www.python.org/downloads/ ; 
+//Após reiniciar o terminar verifique novamente se tem o python instalado em seu terminal verificando a versão do Python   : 
+python3 —version
+//Uma vez que você teve sucesso em verificar a versão do Phyton , proceder para iniciar a instância e digite o código a seguir em seu terminal . 
+
+
+
 ### 1. Clone o repositório
 
 ```bash
@@ -23,15 +33,9 @@ pip install -r statics/requirements.txt
 
 
 
-
-
-
-
-
-
  
  
-**/////1 ) Instalação de Blibliotecas  Necessárias :///////**
+**///// Para instalar manualmente as Blibliotecas  Necessárias :///////**
 
  
 
@@ -76,24 +80,11 @@ pip3 list
 
  
 
-**//////2 )  Rodando o Projeto :///////**
-
-//Verifique se tem o python instalado em seu terminal verificando a versão do Python   : 
-
-python3 —version
-
-
-// Se não tem o python instalado , siga no link a seguir e instale, e então reinicie o seu terminal.
-// Baixe e Instale aqui : https://www.python.org/downloads/ ; 
-
-//Após reiniciar o terminar verifique novamente se tem o python instalado em seu terminal verificando a versão do Python   : 
-python3 —version
-
-//Uma vez que você teve sucesso em verificar a versão do Phyton , proceda para iniciar a instância e digite o código a seguir em seu terminal . 
+**//////Rodando o Projeto : Execute o códio a seguir em seu terminal no diretorio de seu projeto em que seu arquivo app.py esta loalizado .///////**
 
 python3 app.py      
 
-**//////3 )  PRONTO///////**
+**////// PRONTO///////**
 
 **Você receberá uma mensagem do tipo :**
 
