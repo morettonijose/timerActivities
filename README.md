@@ -71,7 +71,7 @@ pip3 install -r static/requirements.txt
 
 
 
-**//////Rodando o Projeto :///////**
+### 4. Rodando o Projeto
 
 **WINDOWS / LINUX**
 ```bash
@@ -84,7 +84,7 @@ python3 app.py
 ```
 
 
-**////// PRONTO///////**
+### 5. Recebendo o o link para acessar no navegador
 
 **Você receberá uma mensagem do tipo :**
 ```bash
@@ -104,7 +104,8 @@ E então já  poderá acessar a API no endereço a a seguir  : **http://127.0.0.
 A rota  para o SWAGGER com a documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
 
 
-**//////Possiveis soluções para erros///////**
+
+### 6. Possíveis soluções de erros
 
 
 
