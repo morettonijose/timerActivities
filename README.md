@@ -89,7 +89,7 @@ python3 app.py
 ```
 
 
-### 5. Recebendo o o link para acessar no navegador
+### 5. Acesse o link para verificar a API  no navegador
 
 **Você receberá uma mensagem do tipo :**
 ```bash
