@@ -44,19 +44,17 @@ cd seu-repositorio
 ####  FOR WINDOWS / LINUX 
 ```bash
 python -m venv venv
+source venv/bin/activate
 ```
 
 
 ####  FOR MAC Crie e ative um ambiente virtual
 ```bash
 python3 -m venv venv
-```
-
-
-```bash
-source venv/bin/activate
 . venv/bin/activate
 ```
+
+
 
 
 
