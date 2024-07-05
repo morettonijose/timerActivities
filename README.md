@@ -2,7 +2,9 @@
 PYTHON FLASK SWAGGER API - CRUD para criar e gerenciar tarefas
 
  
-**Instalação de Blibliotecas  Necessárias :**
+ 
+**/////Instalação de Blibliotecas  Necessárias :///////**
+
  
 **WINDOWS/LINUX :**
 
@@ -30,7 +32,9 @@ Pip3 install -U Flask-SQLAlchemy
 pip3  install flask-cors
 
 
-**Rodando o Projeto :**
+ 
+
+**/////Rodando o Projeto :///////**
 
 //Verifique se tem o pythin instalado em seu terminal e teste a versão do Python   : 
 
