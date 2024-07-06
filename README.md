@@ -80,15 +80,17 @@ python3 -m venv venv
 #### WINDOWS/LINUX  
 ```bash
 pip install -r static/requirements.txt
+pip list
 ```
 
 
 #### MAC OS 
 ```bash
 pip3 install -r static/requirements.txt
+pip3 list
 ```
 
-
+Se as bibliotecas foram listadas corretamente, você pode prosseguir para o próximo passo. Caso tenha tido problema neste passo, verifique as possiveis soluções na sessão de erros no final deste documento. 
 
 ### 4. Rodando o Projeto
 
