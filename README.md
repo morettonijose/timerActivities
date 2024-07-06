@@ -74,7 +74,7 @@ python3 -m venv venv
 
 
 
-### 3.   Instale as bibliotecas necessárias
+### 3.   Instale o PIP
 
 Você também precisará do **pip** para gerenciar a instalação das bibliotecas necessárias ao projeto. 
 
@@ -82,27 +82,37 @@ verifique se o pip está instalado digitando o comando abaixo.
 
 #### WINDOWS/LINUX  
 ```bash
-pip list
+pip --version
 ```
 
 #### MAC OS 
 ```bash
-pip3 list
+pip3 --version
 ```
 
-Se você teve erro ao tentar executar o comando acima, então você precisa instalar o pip.
+Se você teve erro ao tentar executar o comando acima, então você precisa instalar o pip e então verificar novamente e o pip foi instalado.
 
 #### WINDOWS/LINUX  
 ```bash
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+pip --version
 ```
 
 #### MAC OS 
 ```bash
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+pip3 --version
 ```
 
-teste novamente o comando para listar s bibliotecas pip e certifique-se que desta vez não houve erros. 
+Uma vez que você teve sucesso em verificar a versão do pip e que ele esta instalado , você pode prosseguir com a intalação da bibliotecas necessárias ao projeto. 
+
+
+
+
+
+
+### 4.   Instale as bibliotecas necessárias
+
 
 #### WINDOWS/LINUX  
 ```bash
@@ -143,7 +153,10 @@ SQLAlchemy
 
 Se as bibliotecas foram listadas corretamente, você pode prosseguir para o próximo passo. Caso tenha tido problema neste passo, verifique as possiveis soluções na sessão de erros no final deste documento. 
 
-### 4. Rodando o Projeto
+
+
+
+### 5. Rodando o Projeto
 
 **WINDOWS / LINUX**
 ```bash
@@ -156,7 +169,7 @@ python3 app.py
 ```
 
 
-### 5. PRONTO!! Sua instância será ativida. 
+### 6. PRONTO!! Sua instância será ativida. 
 
 **Você receberá uma mensagem do tipo :**
 ```bash
@@ -182,7 +195,7 @@ O link para o SWAGGER de  documentação da api está a seguir  : **http://127.0
 
 
 
-### 6. Possíveis soluções de erros
+### 7. Possíveis soluções de erros
 
 
 #### **ERRO DE ESCRITA NO BANCO DE DADOS**
