@@ -14,12 +14,12 @@ Verifique se tem o python instalado em seu terminal verificando a versão do Pyt
 
 **WINDOWS /linux**
 ```bash
-python3 —version
+python --version
 ```
 
 **MAC OS**
 ```bash
-python3 —version
+python --version
 ```
 
  Se não tem o python instalado , acesse o link a seguir para instalar, e então reinicie o seu terminal.
@@ -30,12 +30,12 @@ Após reiniciar o terminal, verifique novamente se  o python foi instalado verif
 
 **WINDOWS /linux**
 ```bash
-python3 —version
+python —-version
 ```
 
 **MAC OS**
 ```bash
-python3 —version
+python --version
 ```
 
 
