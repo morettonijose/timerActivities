@@ -33,7 +33,7 @@ python --version
 
 **MAC OS**
 ```bash
-python --version
+python3 --version
 ```
 
  Se não tem o python instalado , acesse o link a seguir para instalar, e então reinicie o seu terminal.
