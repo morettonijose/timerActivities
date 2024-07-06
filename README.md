@@ -102,7 +102,7 @@ Press CTRL+C to quit
 ```
 
 
-E então já  poderá acessar a API no endereço a a seguir  : **http://127.0.0.1:5000/activities**  
+E então já  poderá acessar a API no endereço a a seguir  : **http://127.0.0.1:5000/**  
 
 A rota  para o SWAGGER com a documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
 
