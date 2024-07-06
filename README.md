@@ -11,22 +11,35 @@ Acesse aqui  o github com um exemplo do front-end para a aplicação : https://g
 ## Instalação
 
 Verifique se tem o python instalado em seu terminal verificando a versão do Python   : 
+
+**WINDOWS /linux**
 ```bash
 python3 —version
 ```
 
- Se não tem o python instalado , siga no link a seguir e instale, e então reinicie o seu terminal.
+**MAC OS**
+```bash
+python3 —version
+```
+
+ Se não tem o python instalado , acesse o link a seguir para instalar, e então reinicie o seu terminal.
 
 Baixe e Instale aqui : https://www.python.org/downloads/ ; 
 
-Após reiniciar o terminar verifique novamente se tem o python instalado em seu terminal verificando a versão do Python   : 
+Após reiniciar o terminal, verifique novamente se  o python foi instalado verificando a versão do Python   : 
 
+**WINDOWS /linux**
+```bash
+python3 —version
+```
+
+**MAC OS**
 ```bash
 python3 —version
 ```
 
 
-Uma vez que você teve sucesso em verificar a versão do Phyton , proceder para iniciar a instância e digite o código a seguir em seu terminal . 
+Uma vez que você teve sucesso em verificar a versão do Phyton , proceda com o download do repositório . 
 
 
 ### 1. Clone o repositório
