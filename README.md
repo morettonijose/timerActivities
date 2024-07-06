@@ -56,17 +56,6 @@ python --version
 Uma vez que você teve sucesso em verificar a versão do Phyton , você pode prosseguir com a intalação . 
 
 
-Você também precisará do **pip** para gerenciar a instalação das bibliotecas necessárias ao projeto. 
-Caso não tenha o pip instalado, seguia o tutorial a seguir : 
-
-#### WINDOWS / LINUX 
-Tutorial instalação do pip : 
-
-#### MAC OS
-Tutorial intalação do pip : https://www.youtube.com/watch?v=B1Qcb5xQ96M&t=4s
-
-
-
 #### WINDOWS / LINUX 
 ```bash
 python -m venv venv
@@ -87,6 +76,34 @@ python3 -m venv venv
 
 ### 3.   Instale as bibliotecas necessárias
 
+Você também precisará do **pip** para gerenciar a instalação das bibliotecas necessárias ao projeto. 
+
+verifique se o pip está instalado digitando o comando abaixo. 
+
+#### WINDOWS/LINUX  
+```bash
+pip list
+```
+
+#### MAC OS 
+```bash
+pip3 list
+```
+
+Se você teve erro ao tentar executar o comando acima, então você precisa instalar o pip.
+
+#### WINDOWS/LINUX  
+```bash
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+
+#### MAC OS 
+```bash
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+
+Uma vez que você certificou que o pip está instalado com sucesso, prossiga para a instalação das bibliotecas necessárias ao projeto. 
+
 #### WINDOWS/LINUX  
 ```bash
 pip install -r static/requirements.txt
@@ -95,6 +112,8 @@ pip list
 
 
 #### MAC OS 
+Tutorial intalação do pip (se necessário) : https://www.youtube.com/watch?v=B1Qcb5xQ96M&t=4s
+
 ```bash
 pip3 install -r static/requirements.txt
 pip3 list
