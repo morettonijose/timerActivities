@@ -54,14 +54,14 @@ cd seu-repositorio
 ### 2.  Crie e ative um ambiente virtual
 
 
-####  FOR WINDOWS / LINUX 
+#### WINDOWS / LINUX 
 ```bash
 python -m venv venv
 source venv/bin/activate
 ```
 
 
-####  FOR MAC Crie e ative um ambiente virtual
+#### MAC OS
 ```bash
 python3 -m venv venv
 . venv/bin/activate
@@ -74,13 +74,13 @@ python3 -m venv venv
 
 ### 3.   Instale as bibliotecas necessárias
 
-#### FOR WINDOWS/LINUX  
+#### WINDOWS/LINUX  
 ```bash
 pip install -r static/requirements.txt
 ```
 
 
-####  FOR MAC 
+#### MAC OS 
 ```bash
 pip3 install -r static/requirements.txt
 ```
