@@ -102,6 +102,18 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ```
 
+teste novamente o comando para listar s bibliotecas pip e certifique-se que desta vez não houve erros. 
+
+#### WINDOWS/LINUX  
+```bash
+pip list
+```
+
+#### MAC OS 
+```bash
+pip3 list
+```
+
 Uma vez que você certificou que o pip está instalado com sucesso, prossiga para a instalação das bibliotecas necessárias ao projeto. 
 
 #### WINDOWS/LINUX  
