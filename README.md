@@ -252,7 +252,7 @@ pip3 install flask-restful
 
 pip3 install flask-swagger-ui
 
-Pip3 install -U Flask-SQLAlchemy
+pip3 install -U Flask-SQLAlchemy
 
 pip3  install flask-cors
 
