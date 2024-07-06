@@ -192,6 +192,11 @@ Para visualizar a API e saber sobre os endpoints e  documentação, acessse o SW
 
 O link para o SWAGGER da documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
 
+A seguir você pode encontrar olink do repositório com um exemplo do front-end para a aplicação :  
+**https://github.com/morettonijose/timerActivities-frontEnd**
+
+
+
 
 
 
