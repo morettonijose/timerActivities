@@ -90,7 +90,7 @@ pip --version
 pip3 --version
 ```
 
-Se você teve erro ao tentar executar o comando acima, então você precisa instalar o pip e então verificar novamente e o pip foi instalado.
+Se você teve erro ao tentar executar o comando acima, então você precisa instalar o pip e então verificar novamente se o pip foi instalado.
 
 #### WINDOWS/LINUX  
 ```bash
