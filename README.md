@@ -56,6 +56,16 @@ python --version
 Uma vez que você teve sucesso em verificar a versão do Phyton , você pode prosseguir com a intalação . 
 
 
+Você também precisará do **pip** para gerenciar a instalação das bibliotecas necessárias ao projeto. 
+Caso não tenha o pip instalado, seguia o tutorial a seguir : 
+
+#### WINDOWS / LINUX 
+Tutorial instalação do pip : 
+
+#### MAC OS
+Tutorial intalação do pip : https://www.youtube.com/watch?v=B1Qcb5xQ96M&t=4s
+
+
 
 #### WINDOWS / LINUX 
 ```bash
