@@ -113,6 +113,7 @@ Uma vez que você teve sucesso em verificar a versão do pip e que ele esta inst
 
 ### 4.   Instale as bibliotecas necessárias
 
+Verifique as bibliotecas atualmente instaladas.
 
 #### WINDOWS/LINUX  
 ```bash
@@ -124,7 +125,7 @@ pip list
 pip3 list
 ```
 
-Uma vez que você certificou que o pip está instalado com sucesso, prossiga para a instalação das bibliotecas necessárias ao projeto. 
+Instale as bibliotecas necessárias ao projeto : 
 
 #### WINDOWS/LINUX  
 ```bash
@@ -133,15 +134,14 @@ pip list
 ```
 
 
-#### MAC OS 
-Tutorial intalação do pip (se necessário) : https://www.youtube.com/watch?v=B1Qcb5xQ96M&t=4s
-
+#### MAC OS  
 ```bash
 pip3 install -r static/requirements.txt
 pip3 list
 ```
 
-Após este ponte você deverá ter visto a lista das bibliotecas intaladas. Note se as seguintes bibliotecas estão instaladas : 
+Após este ponte você deverá ter recebido como retorno  a lista das bibliotecas intaladas. 
+Certifique-se de que as seguintes bibliotecas estão instaladas : 
 
 Flask            
 Flask-Cors       
@@ -151,8 +151,9 @@ flask-swagger-ui
 SQLAlchemy        
 
 
-Se as bibliotecas foram listadas corretamente, você pode prosseguir para o próximo passo. Caso tenha tido problema neste passo, verifique as possiveis soluções na sessão de erros no final deste documento. 
+Se as bibliotecas foram listadas corretamente, você pode prosseguir para o próximo passo. 
 
+Caso tenha tido problema neste passo, verifique as possiveis soluções na sessão de erros no final deste documento. 
 
 
 
