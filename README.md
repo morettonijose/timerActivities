@@ -49,7 +49,7 @@ python —-version
 
 **MAC OS**
 ```bash
-python --version
+python3 --version
 ```
 
 
