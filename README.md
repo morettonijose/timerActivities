@@ -230,7 +230,7 @@ pip install flask-restful
 
 pip install flask-swagger-ui
 
-Pip install -U Flask-SQLAlchemy
+pip install -U Flask-SQLAlchemy
 
 pip  install flask-cors
 
