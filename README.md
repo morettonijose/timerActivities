@@ -112,7 +112,7 @@ A rota  para o SWAGGER com a documentação da api está a seguir  : **http://12
 
 
 
-**//////ERRO DE ESCRITA NO BANCO DE DADOS ///////**
+#### **ERRO DE ESCRITA NO BANCO DE DADOS**
 
 Caso tenha erro ao tentar executar a escrita no banco de dados deve-se verificar e corrigir a permissão de escrita do arquivo e respectivo diretorio, conforme a seguir :  
 
@@ -122,12 +122,12 @@ Caso tenha erro ao tentar executar a escrita no banco de dados deve-se verificar
   * chown seu_usuario:seu_grupo /instance/activities.d
 ```
 
-**/////////////////////////////////////////////////////////////////**
+ 
 
+**ERRO DE INSTALACAO DAS BIBLIOTECAS x**
 
-**//////ERRO DE INSTALACAO DAS BIBLIOTECAS ///////**
+####  **Para instalar manualmente as Blibliotecas  Necessárias :**
 
-**///// Para instalar manualmente as Blibliotecas  Necessárias :///////**
 
 **WINDOWS/LINUX :**
 ```bash
