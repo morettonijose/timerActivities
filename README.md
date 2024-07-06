@@ -190,7 +190,7 @@ Você não conseguirá visualizar a api diretamente na url acima pois não há n
 
 Para visualizar a API e saber sobre os endpoints e  documentação, acessse o SWAGGER em seu navegador .
 
-O link para o SWAGGER de  documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
+O link para o SWAGGER da documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
 
 
 
