@@ -126,7 +126,7 @@ Caso tenha erro ao tentar executar a escrita no banco de dados deve-se verificar
 
  
 
-**ERRO DE INSTALACAO DAS BIBLIOTECAS x**
+**ERRO DE INSTALACAO DAS BIBLIOTECAS**
 
 ####  **Para instalar manualmente as Blibliotecas  Necessárias :**
 
