@@ -32,7 +32,7 @@ Uma vez que você teve sucesso em verificar a versão do Phyton , proceder para 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/morettonijose/timerActivities-API.git
 cd seu-repositorio
 ```
 
