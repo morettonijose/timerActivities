@@ -104,8 +104,11 @@ Press CTRL+C to quit
 
 E então já  poderá acessar a API no endereço a a seguir  : **http://127.0.0.1:5000/**  
 
-A rota  para o SWAGGER com a documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
+Você não conseguirá visualizar a api diretamente na url acima pois não há nenhuma rota no endereço principal da api .
 
+Para visualizar a API e saber sobre a documentação , acessse o SWAGGER em seu navegador .
+
+O link para o SWAGGER de  documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
 
 
 ### 6. Possíveis soluções de erros
