@@ -170,7 +170,7 @@ python3 app.py
 ```
 
 
-### 6. PRONTO!! Sua instância será ativida. 
+### 6. PRONTO!! Sua instância foi ativada com sucesso
 
 **Você receberá uma mensagem do tipo :**
 ```bash
