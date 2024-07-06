@@ -184,7 +184,7 @@ Press CTRL+C to quit
  * Debugger PIN: 608-878-228
 ```
 
-E então já  poderá acessar a API no endereço a a seguir  : **http://127.0.0.1:5000/**  
+E então já  poderá acessar a API no endereço a seguir  : **http://127.0.0.1:5000/**  
 
 Você não conseguirá visualizar a api diretamente na url acima pois não há nenhum endpoint no endereço principal da api .
 
