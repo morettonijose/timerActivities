@@ -90,6 +90,16 @@ pip3 install -r static/requirements.txt
 pip3 list
 ```
 
+Após este ponte você deverá ter visto a lista das bibliotecas intaladas. Note se as seguintes bibliotecas estão instaladas : 
+
+Flask            
+Flask-Cors       
+Flask-RESTful     
+Flask-SQLAlchemy  
+flask-swagger-ui  
+SQLAlchemy        
+
+
 Se as bibliotecas foram listadas corretamente, você pode prosseguir para o próximo passo. Caso tenha tido problema neste passo, verifique as possiveis soluções na sessão de erros no final deste documento. 
 
 ### 4. Rodando o Projeto
