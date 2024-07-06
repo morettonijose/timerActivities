@@ -115,7 +115,7 @@ python3 app.py
 ```
 
 
-### 5. Acesse o link para verificar a API  no navegador
+### 5. PRONTO!! Sua instância será ativida. 
 
 **Você receberá uma mensagem do tipo :**
 ```bash
@@ -129,7 +129,6 @@ Press CTRL+C to quit
  * Debugger PIN: 608-878-228
 ```
 
-
 E então já  poderá acessar a API no endereço a a seguir  : **http://127.0.0.1:5000/**  
 
 Você não conseguirá visualizar a api diretamente na url acima pois não há nenhum endpoint no endereço principal da api .
@@ -137,6 +136,9 @@ Você não conseguirá visualizar a api diretamente na url acima pois não há n
 Para visualizar a API e saber sobre os endpoints e  documentação, acessse o SWAGGER em seu navegador .
 
 O link para o SWAGGER de  documentação da api está a seguir  : **http://127.0.0.1:5000/swagger/**
+
+
+
 
 
 ### 6. Possíveis soluções de erros
