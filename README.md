@@ -121,7 +121,7 @@ Caso tenha erro ao tentar executar a escrita no banco de dados deve-se verificar
 ```bash
   * chmod 755 /instance
   * chmod 666 /instance/activities.db
-  * chown seu_usuario:seu_grupo /instance/activities.d
+  * chown seu_usuario:seu_grupo /instance/activities.db
 ```
 
  
