@@ -10,6 +10,20 @@ Acesse aqui  o github com um exemplo do front-end para a aplicação : https://g
 
 ## Instalação
 
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/morettonijose/timerActivities-API.git seu-repositorio
+cd seu-repositorio
+```
+
+
+
+### 2.  Crie e ative um ambiente virtual
+
+
+
 Verifique se tem o python instalado em seu terminal verificando a versão do Python   : 
 
 **WINDOWS /linux**
@@ -39,19 +53,8 @@ python --version
 ```
 
 
-Uma vez que você teve sucesso em verificar a versão do Phyton , proceda com o download do repositório . 
+Uma vez que você teve sucesso em verificar a versão do Phyton , você pode prosseguir com a intalação . 
 
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/morettonijose/timerActivities-API.git seu-repositorio
-cd seu-repositorio
-```
-
-
-
-### 2.  Crie e ative um ambiente virtual
 
 
 #### WINDOWS / LINUX 
