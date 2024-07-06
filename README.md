@@ -141,7 +141,7 @@ pip3 list
 ```
 
 Após este ponto você deverá ter recebido como retorno  a lista das bibliotecas instaladas. 
-Certifique-se de que as seguintes bibliotecas estão instaladas : 
+Certifique-se de que as seguintes bibliotecas estejam instaladas : 
 
 Flask            
 Flask-Cors       
