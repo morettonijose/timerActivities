@@ -140,7 +140,7 @@ pip3 install -r static/requirements.txt
 pip3 list
 ```
 
-Após este ponte você deverá ter recebido como retorno  a lista das bibliotecas intaladas. 
+Após este ponto você deverá ter recebido como retorno  a lista das bibliotecas intaladas. 
 Certifique-se de que as seguintes bibliotecas estão instaladas : 
 
 Flask            
